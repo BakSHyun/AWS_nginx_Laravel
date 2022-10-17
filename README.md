@@ -11,7 +11,9 @@ ec2-user
 
 
 $ amazon-linux-extras list
+
 // 위 명령어를 통해 설치가 가능한 리스트를 확인 할 수 있다.
+
 // 설치할 목록은 nginx, php7.2 버전이다.
 
 // nginx 설치
@@ -35,8 +37,10 @@ $ sudo vi /etc/my.cnf
 
 [mysqld]
 
-port = 3306 //포트번호 기입 3306 포트 이용 시 기입하지 않아도 좋음
-character-set-server = utf8mb4 //이모지 등을 다루기 위하 해당 캐릭터셋 사용
+port = 3306 
+//포트번호 기입 3306 포트 이용 시 기입하지 않아도 좋음
+character-set-server = utf8mb4 
+//이모지 등을 다루기 위하 해당 캐릭터셋 사용
 collation-server = utf8mb4_unicode_ci
 character_set_server = utf8mb4
 collation_server = utf8mb4_unicode_ci
