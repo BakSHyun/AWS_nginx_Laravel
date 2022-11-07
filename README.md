@@ -14,13 +14,13 @@ $ amazon-linux-extras list
 
 // 위 명령어를 통해 설치가 가능한 리스트를 확인 할 수 있다.
 
-// 설치할 목록은 nginx, php7.2 버전이다.
+// 설치할 목록은 nginx, php8.0 버전이다.
 
 // nginx 설치
 $ sudo yum install nginx
 //위 명령어를 기입함으로 필요한 amazon-linux-extras를 확인 할 수 있다.
 
-$ sudo amazon-linux-extras install nginx
+$ sudo amazon-linux-extras install nginx1
 // nginx를 우선 설치한다.
 $ sudo service nginx start
 // nginx를 실행한다.
@@ -65,6 +65,7 @@ GRANT ALL PRIVILEGES ON DB이름.* TO '아이디'@'%'
 
 FLUSH PRIVILEGES;
 //새로고침
+
 
 
 
